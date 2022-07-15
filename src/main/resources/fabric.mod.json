@@ -1,16 +1,18 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "atatech",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "ATA-Tech",
+  "description": "Weird planets, freaky creatures and portals?",
   "authors": [
-    "Me!"
+    "As3m",
+    "Thunder_Above",
+    "AWrongUsername"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/AWrongUsername/ATA-Tech",
+    "sources": "https://github.com/AWrongUsername/ATA-Tech"
   },
 
   "license": "CC0-1.0",
@@ -19,11 +21,11 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "nl.naimv.atatech.ATATech"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "atatech.mixins.json"
   ],
 
   "depends": {
