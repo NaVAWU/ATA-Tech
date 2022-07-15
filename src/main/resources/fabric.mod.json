@@ -4,7 +4,7 @@
   "version": "${version}",
 
   "name": "ATA-Tech",
-  "description": "Weird planets, freaky creatures and portals?",
+  "description": "Weird planets, freaky creatures and portals",
   "authors": [
     "As3m",
     "Thunder_Above",
@@ -16,7 +16,7 @@
   },
 
   "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "icon": "assets/atatech/icon.png",
 
   "environment": "*",
   "entrypoints": {
