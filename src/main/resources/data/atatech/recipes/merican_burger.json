@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": {
+      "item": "minecraft:bread"
+    },
+    "B": {
+      "item": "minecraft:sugar"
+    },
+    "C": {
+      "item": "minecraft:cooked_beef"
+    },
+    "D": {
+      "item": "atatech:merican_cheese"
+    }
+  },
+  "pattern": [
+    " A ",
+    "BCD",
+    " A "
+  ],
+  "result": {
+    "item": "atatech:merican_burger"
+  }
+}

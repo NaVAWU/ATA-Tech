@@ -1,6 +1,9 @@
 {
   "item.atatech.merican_cheese": "§6'Merican Cheese",
-  "item.atatech.merican_cheese.tooltip": "§7Smells like chemicals, tastes like chemicals...",
+  "item.atatech.merican_cheese.tooltip": "§7Smells like freedom, tastes like chemicals...",
+
+  "item.atatech.merican_burger": "§6'Merican Burger",
+  "item.atatech.merican_burger.tooltip": "§7With no added sugars.",
 
   "itemGroup.atatech.atatech": "ATA-Tech"
 }
