@@ -1,6 +1,7 @@
 package nl.naimv.atatech;
 
 import net.fabricmc.api.ModInitializer;
+import nl.naimv.atatech.blocks.ModBlocks;
 import nl.naimv.atatech.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,5 +13,6 @@ public class ATATech implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 	}
 }
