@@ -3,6 +3,9 @@
     "atatech:wormhole_frame",
     "atatech:bauxite_ore",
     "atatech:bauxite",
-    "atatech:aluminum_block"
+    "atatech:aluminum_block",
+    "atatech:ilmenite_ore",
+    "atatech:deepslate_ilmenite_ore",
+    "atatech:titanium_block"
   ]
 }
