@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "iron_ingot",
+  "ingredients": [
+    {
+      "item": "atatech:titanium_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "atatech:titanium_ingot"
+  }
+}
