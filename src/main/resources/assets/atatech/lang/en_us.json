@@ -26,7 +26,8 @@
   "block.atatech.aluminum_block.tooltip": "§7Block of Spaceship Material",
 
   "block.atatech.ilmenite_ore": "Ilmenite Ore",
-  "block.atatech.titanium_block": "Titanium Block",
+  "block.atatech.deepslate_ilmenite_ore": "Deepslate Ilmenite Ore",
+  "block.atatech.titanium_block": "Block of Titanium",
   "item.atatech.raw_ilmenite_ore": "Raw Ilmenite Ore",
   "item.atatech.titanium_ingot":"Titanium Ingot",
   "item.atatech.titanium_nugget": "Titanium Nugget",

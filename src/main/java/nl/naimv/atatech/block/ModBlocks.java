@@ -37,6 +37,9 @@ public class ModBlocks {
 
     public static final Block ILMENITE_ORE = registerBlock("ilmenite_ore",
             new Block(FabricBlockSettings.of(Material.STONE).strength(4f)),ModItemGroup.ATATECH);
+
+    public static final Block DEEPSLATE_ILMENITE_ORE = registerBlock("deepslate_ilmenite_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f)),ModItemGroup.ATATECH);
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(ATATech.MOD_ID,name), block);
