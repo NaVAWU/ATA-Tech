@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "iron_ingot",
+  "ingredients": [
+    {
+      "item": "atatech:aluminum_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "atatech:aluminum_ingot"
+  }
+}

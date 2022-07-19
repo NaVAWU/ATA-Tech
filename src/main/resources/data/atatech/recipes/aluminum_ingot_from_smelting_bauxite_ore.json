@@ -3,7 +3,7 @@
   "cookingtime": 200,
   "experience": 0.7,
   "ingredient": {
-    "item": "atatech:aluminum_ore"
+    "item": "atatech:bauxite_ore"
   },
   "result": "atatech:aluminum_ingot"
 }
