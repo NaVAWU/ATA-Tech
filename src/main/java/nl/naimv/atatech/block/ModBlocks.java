@@ -24,7 +24,10 @@ public class ModBlocks {
             new TooltipBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(), "block.atatech.bauxite_ore.tooltip"), ModItemGroup.ATATECH);
 
     public static final Block BAUXITE = registerBlock("bauxite",
-            new TooltipBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(), "block.atatech.bauxite.tooltip"), ModItemGroup.ATATECH);
+            new TooltipBlock(FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool(), "block.atatech.bauxite.tooltip"), ModItemGroup.ATATECH);
+
+    public static final Block BAUXITE_BRICKS = registerBlock("bauxite_bricks",
+            new TooltipBlock(FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool(), "block.atatech.bauxite_bricks.tooltip"), ModItemGroup.ATATECH);
 
     public static final Block ALUMINUM_BLOCK = registerBlock("aluminum_block",
             new TooltipBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(), "block.atatech.aluminum_block.tooltip"), ModItemGroup.ATATECH);

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.1,
+  "ingredient": {
+    "item": "atatech:bauxite"
+  },
+  "result": "atatech:bauxite_bricks"
+}
