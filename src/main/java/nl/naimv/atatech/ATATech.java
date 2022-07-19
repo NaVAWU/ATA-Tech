@@ -1,7 +1,7 @@
 package nl.naimv.atatech;
 
 import net.fabricmc.api.ModInitializer;
-import nl.naimv.atatech.blocks.ModBlocks;
+import nl.naimv.atatech.block.ModBlocks;
 import nl.naimv.atatech.item.ModItems;
 import nl.naimv.atatech.world.dimension.ModDimensions;
 import org.slf4j.Logger;

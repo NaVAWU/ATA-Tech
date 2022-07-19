@@ -1,13 +1,9 @@
 package nl.naimv.atatech.world.dimension;
 
-import net.kyrptonaught.customportalapi.CustomPortalBlock;
 import net.kyrptonaught.customportalapi.api.CustomPortalBuilder;
-import net.minecraft.block.AbstractBlock;
-import net.minecraft.block.Blocks;
-import net.minecraft.block.Material;
 import net.minecraft.util.Identifier;
 import nl.naimv.atatech.ATATech;
-import nl.naimv.atatech.blocks.ModBlocks;
+import nl.naimv.atatech.block.ModBlocks;
 import nl.naimv.atatech.item.ModItems;
 
 public class ModDimensions {

@@ -1,4 +1,4 @@
-package nl.naimv.atatech.blocks;
+package nl.naimv.atatech.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
@@ -11,6 +11,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import nl.naimv.atatech.ATATech;
+import nl.naimv.atatech.block.custom.TooltipBlock;
 import nl.naimv.atatech.item.ModItemGroup;
 
 
@@ -18,6 +19,16 @@ public class ModBlocks {
 
     public static final Block WORMHOLE_FRAME = registerBlock("wormhole_frame",
             new Block(FabricBlockSettings.of(Material.METAL).strength(8f).requiresTool()), ModItemGroup.ATATECH);
+
+    public static final Block BAUXITE_ORE = registerBlock("bauxite_ore",
+            new TooltipBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(), "block.atatech.bauxite_ore.tooltip"), ModItemGroup.ATATECH);
+
+    public static final Block BAUXITE = registerBlock("bauxite",
+            new TooltipBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(), "block.atatech.bauxite.tooltip"), ModItemGroup.ATATECH);
+
+    public static final Block ALUMINUM_BLOCK = registerBlock("aluminum_block",
+            new TooltipBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(), "block.atatech.aluminum_block.tooltip"), ModItemGroup.ATATECH);
+
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(ATATech.MOD_ID,name), block);

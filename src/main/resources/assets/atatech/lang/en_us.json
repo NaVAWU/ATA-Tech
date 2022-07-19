@@ -5,7 +5,22 @@
   "item.atatech.merican_burger": "§6'Merican Burger",
   "item.atatech.merican_burger.tooltip": "§7With no added sugars.",
 
+  "item.atatech.raw_aluminum":  "Raw Aluminum",
+  "item.atatech.raw_aluminum.tooltip": "§7Not as tasty as it looks.",
+
+  "item.atatech.aluminum_ingot":  "Aluminum Ingot",
+  "item.atatech.aluminum_ingot.tooltip": "§7Your best friend",
+
   "block.atatech.wormhole_frame": "Wormhole Frame",
+
+  "block.atatech.bauxite_ore": "Bauxite Ore",
+  "block.atatech.bauxite_ore.tooltip": "§7Straight from Mars!",
+
+  "block.atatech.bauxite": "Bauxite",
+  "block.atatech.bauxite.tooltip": "§7Weird Granite",
+
+  "block.atatech.aluminum_block": "Block of Aluminum",
+  "block.atatech.aluminum_block.tooltip": "§7Block of Spaceship Material",
 
   "itemGroup.atatech.atatech": "ATA-Tech"
 }
