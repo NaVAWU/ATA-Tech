@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "cookingtime": 200,
+  "experience": 0.7,
+  "ingredient": {
+    "item": "atatech:raw_ilmenite_ore"
+  },
+  "result": "atatech:titanium_ingot"
+}

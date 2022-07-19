@@ -29,6 +29,11 @@ public class ModBlocks {
     public static final Block ALUMINUM_BLOCK = registerBlock("aluminum_block",
             new TooltipBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(), "block.atatech.aluminum_block.tooltip"), ModItemGroup.ATATECH);
 
+    public static final Block TITANIUM_BLOCK = registerBlock("titanium_block",
+            new Block(FabricBlockSettings.of(Material.METAL).strength(4f)),ModItemGroup.ATATECH);
+
+    public static final Block ILMENITE_ORE = registerBlock("ilmenite_ore",
+            new Block(FabricBlockSettings.of(Material.STONE).strength(4f)),ModItemGroup.ATATECH);
     private static Block registerBlock(String name, Block block, ItemGroup group) {
         registerBlockItem(name, block, group);
         return Registry.register(Registry.BLOCK, new Identifier(ATATech.MOD_ID,name), block);
