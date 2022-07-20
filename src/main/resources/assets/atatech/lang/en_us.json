@@ -22,6 +22,10 @@
   "block.atatech.bauxite_bricks": "Bauxite Bricks",
   "block.atatech.bauxite_bricks.tooltip": "§7Funny",
 
+  "block.atatech.bauxite_wall": "Bauxite Brick Walls",
+  "block.atatech.bauxite_slab": "Bauxite Brick Slab",
+  "block.atatech.bauxite_stairs": "Bauxite Brick Stairs",
+
   "block.atatech.aluminum_block": "Block of Aluminum",
   "block.atatech.aluminum_block.tooltip": "§7Block of Spaceship Material",
 
