@@ -2,15 +2,14 @@ package nl.naimv.atatech.block;
 
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
-import net.minecraft.block.Block;
-import net.minecraft.block.Material;
-import net.minecraft.block.PillarBlock;
+import net.minecraft.block.*;
 import net.minecraft.item.BlockItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import nl.naimv.atatech.ATATech;
+import nl.naimv.atatech.block.custom.ModStairsBlock;
 import nl.naimv.atatech.block.custom.TooltipBlock;
 import nl.naimv.atatech.item.ModItemGroup;
 
@@ -28,6 +27,16 @@ public class ModBlocks {
 
     public static final Block BAUXITE_BRICKS = registerBlock("bauxite_bricks",
             new TooltipBlock(FabricBlockSettings.of(Material.STONE).strength(2f).requiresTool(), "block.atatech.bauxite_bricks.tooltip"), ModItemGroup.ATATECH);
+
+    public static final Block BAUXITE_WALL = registerBlock("bauxite_wall",
+            new WallBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()),ModItemGroup.ATATECH);
+
+    public static final Block BAUXITE_SLAB = registerBlock("bauxite_slab",
+            new SlabBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()),ModItemGroup.ATATECH);
+
+    public static final Block BAUXITE_STAIRS = registerBlock("bauxite_stairs",
+            new ModStairsBlock(ModBlocks.BAUXITE_BRICKS.getDefaultState(),FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool()),ModItemGroup.ATATECH);
+
 
     public static final Block ALUMINUM_BLOCK = registerBlock("aluminum_block",
             new TooltipBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(), "block.atatech.aluminum_block.tooltip"), ModItemGroup.ATATECH);

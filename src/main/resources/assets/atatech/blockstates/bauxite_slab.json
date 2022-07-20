@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "atatech:block/bauxite_slab"
+    },
+    "type=double": {
+      "model": "atatech:block/bauxite_bricks"
+    },
+    "type=top": {
+      "model": "atatech:block/bauxite_slab_top"
+    }
+  }
+}

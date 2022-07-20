@@ -19,7 +19,7 @@ public class ModDimensions {
                 .destDimID(new Identifier("the_end"))
                 .tintColor(0,0,0)
                 .lightWithItem(ModItems.MERICAN_CHEESE)
-                .forcedSize(3,3)
+                .forcedSize(5,5)
         //        .customPortalBlock(new CustomPortalBlock(AbstractBlock.Settings.of(Blocks.IRON_BARS.getDefaultState().getMaterial())))
                 .registerPortal();
     }
