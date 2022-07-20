@@ -32,6 +32,11 @@
   "item.atatech.titanium_ingot":"Titanium Ingot",
   "item.atatech.titanium_nugget": "Titanium Nugget",
 
+  "item.atatech.aerospace_grade_aluminum": "Aerospace Grade Aluminum",
+  "item.atatech.aerospace_grade_aluminum.tooltip": "§7Try to bend it...",
+
+  "item.atatech.aerospace_grade_titanium": "Aerospace Grade Titanium",
+  "item.atatech.aerospace_grade_titanium.tooltip": "§7...I bet you can't",
 
   "itemGroup.atatech.atatech": "ATA-Tech"
 }

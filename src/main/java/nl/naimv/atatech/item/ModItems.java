@@ -24,6 +24,12 @@ public class ModItems {
     public static final Item ALUMINUM_INGOT = registerItem("aluminum_ingot",
             new TooltipItem(new FabricItemSettings().group(ModItemGroup.ATATECH), "item.atatech.aluminum_ingot.tooltip"));
 
+    public static final Item AEROSPACE_GRADE_ALUMINUM = registerItem("aerospace_grade_aluminum",
+            new TooltipItem(new FabricItemSettings().group(ModItemGroup.ATATECH), "item.atatech.aerospace_grade_aluminum.tooltip"));
+
+    public static final Item AEROSPACE_GRADE_TITANIUM = registerItem("aerospace_grade_titanium",
+            new TooltipItem(new FabricItemSettings().group(ModItemGroup.ATATECH), "item.atatech.aerospace_grade_titanium.tooltip"));
+
     public static final Item RAW_ILMENITE_ORE = registerItem("raw_ilmenite_ore",
             new Item(new FabricItemSettings().group(ModItemGroup.ATATECH)));
 
