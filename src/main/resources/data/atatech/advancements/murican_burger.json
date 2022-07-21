@@ -1,0 +1,28 @@
+{
+  "display": {
+    "icon": {
+      "item": "atatech:merican_burger"
+    },
+    "title": "Murica",
+    "description": "Description",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atatech:atatech_open",
+  "criteria": {
+    "requirements": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "atatech:merican_burger"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}
