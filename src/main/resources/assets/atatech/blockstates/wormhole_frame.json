@@ -1,5 +1,27 @@
 {
-   "variants": {
-     "": {"model": "atatech:block/wormhole_frame"}
-   }
+  "variants": {
+    "facing=down": {
+      "model": "atatech:block/wormhole_frame",
+      "x": 90
+    },
+    "facing=east": {
+      "model": "atatech:block/wormhole_frame",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "atatech:block/wormhole_frame"
+    },
+    "facing=south": {
+      "model": "atatech:block/wormhole_frame",
+      "y": 180
+    },
+    "facing=up": {
+      "model": "atatech:block/wormhole_frame",
+      "x": 270
+    },
+    "facing=west": {
+      "model": "atatech:block/wormhole_frame",
+      "y": 270
+    }
+  }
 }
