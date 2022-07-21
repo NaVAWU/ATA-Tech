@@ -3,6 +3,7 @@ package nl.naimv.atatech;
 import net.fabricmc.api.ModInitializer;
 import nl.naimv.atatech.block.ModBlocks;
 import nl.naimv.atatech.item.ModItems;
+import nl.naimv.atatech.painting.ModPaintings;
 import nl.naimv.atatech.world.dimension.ModDimensions;
 import nl.naimv.atatech.world.feature.ModConfiguredFeatures;
 import nl.naimv.atatech.world.gen.ModOreGeneration;
@@ -20,5 +21,6 @@ public class ATATech implements ModInitializer {
 		ModBlocks.registerModBlocks();
 		ModDimensions.register();
 		ModOreGeneration.generateOres();
+		ModPaintings.registerPaintings();
 	}
 }

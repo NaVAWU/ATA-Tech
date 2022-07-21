@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "atatech:aerospace_grade_aluminum"
+    },
+    "title": "Beam me up!",
+    "description": "Reach the Space Station",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "parent": "atatech:atatech_open",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "atatech:spst"
+      }
+    }
+  }
+}

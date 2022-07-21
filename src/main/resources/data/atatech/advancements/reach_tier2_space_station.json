@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "atatech:aerospace_grade_titanium"
+    },
+    "title": "I just need some Space",
+    "description": "Reach the Tier 2 Space Station",
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atatech:reach_space_station",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

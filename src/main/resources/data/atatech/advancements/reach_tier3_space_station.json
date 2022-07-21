@@ -1,0 +1,19 @@
+{
+  "display": {
+    "icon": {
+      "item": "atatech:titanium_block"
+    },
+    "title": "Tier 3, the final frontier",
+    "description": "Reach the Tier 3 Space Station",
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "atatech:reach_tier2_space_station",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}
