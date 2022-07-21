@@ -9,6 +9,7 @@ import net.minecraft.item.ItemGroup;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
 import nl.naimv.atatech.ATATech;
+import nl.naimv.atatech.block.custom.GrateBlock;
 import nl.naimv.atatech.block.custom.ModStairsBlock;
 import nl.naimv.atatech.block.custom.TooltipBlock;
 import nl.naimv.atatech.block.custom.WormholeFrameBlock;
@@ -19,6 +20,9 @@ public class ModBlocks {
 
     public static final Block WORMHOLE_FRAME = registerBlock("wormhole_frame",
             new WormholeFrameBlock(FabricBlockSettings.of(Material.METAL).strength(8f).requiresTool()), ModItemGroup.ATATECH);
+
+    public static final Block GRATE = registerBlock("grate",
+            new GrateBlock(FabricBlockSettings.of(Material.METAL).strength(8f).requiresTool()),ModItemGroup.ATATECH);
 
     public static final Block BAUXITE_ORE = registerBlock("bauxite_ore",
             new TooltipBlock(FabricBlockSettings.of(Material.STONE).strength(4f).requiresTool(), "block.atatech.bauxite_ore.tooltip"), ModItemGroup.ATATECH);

@@ -29,6 +29,8 @@
   "block.atatech.aluminum_block": "Block of Aluminum",
   "block.atatech.aluminum_block.tooltip": "§7Block of Spaceship Material",
 
+  "block.atatech.grate": "Grate",
+
   "block.atatech.ilmenite_ore": "Ilmenite Ore",
   "block.atatech.deepslate_ilmenite_ore": "Deepslate Ilmenite Ore",
   "block.atatech.titanium_block": "Block of Titanium",
@@ -41,6 +43,7 @@
 
   "item.atatech.aerospace_grade_titanium": "Aerospace Grade Titanium",
   "item.atatech.aerospace_grade_titanium.tooltip": "§7...I bet you can't",
+
 
   "itemGroup.atatech.atatech": "ATA-Tech"
 }
