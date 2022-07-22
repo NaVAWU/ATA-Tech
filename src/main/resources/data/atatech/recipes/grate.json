@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_trapdoor"
+    },
+    "A": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "pattern": [
+    "",
+    "A#A",
+    ""
+  ],
+  "result": {
+    "item": "atatech:grate"
+  }
+}
