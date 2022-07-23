@@ -1,0 +1,52 @@
+{
+  "variants": {
+    "facing=east,type=bottom": {
+      "model": "atatech:block/grate",
+      "y": 90
+    },
+    "facing=north,type=bottom": {
+      "model": "atatech:block/grate",
+      "y": 180
+    },
+    "facing=south,type=bottom": {
+      "model": "atatech:block/grate"
+
+    },
+    "facing=west,type=bottom": {
+      "model": "atatech:block/grate",
+      "y": 270
+    },
+
+    "facing=east,type=top": {
+      "model": "atatech:block/grate_top",
+      "y": 90
+    },
+    "facing=north,type=top": {
+      "model": "atatech:block/grate_top",
+      "y": 180
+    },
+    "facing=south,type=top": {
+      "model": "atatech:block/grate_top"
+
+    },
+    "facing=west,type=top": {
+      "model": "atatech:block/grate_top",
+      "y": 270
+    },
+    "facing=east,type=double": {
+      "model": "atatech:block/grate_top_bottom",
+      "y": 90
+    },
+    "facing=north,type=double": {
+      "model": "atatech:block/grate_top_bottom",
+      "y": 180
+    },
+    "facing=south,type=double": {
+      "model": "atatech:block/grate_top_bottom"
+    },
+    "facing=west,type=double": {
+      "model": "atatech:block/grate_top_bottom",
+      "y": 270
+    }
+  }
+}
